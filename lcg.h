@@ -24,4 +24,8 @@ struct LinearCongruentialGenerator makeLCG(unsigned long m, unsigned long c);
 /* Update lcg and return next value in the sequence. */
 unsigned long getNextRandomValue(struct LinearCongruentialGenerator* lcg);
 
+unsigned long getNextRandomValue(struct LinearCongruentialGenerator* lcg)
+{
+  
+}
 #endif
